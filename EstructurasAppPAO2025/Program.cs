@@ -5,3 +5,8 @@ int sumar(int a, int b)
 {
     return a + b;
 }
+
+//Función para restar dos flotantes
+double resta(double a, double b){
+    return a - b;
+}
