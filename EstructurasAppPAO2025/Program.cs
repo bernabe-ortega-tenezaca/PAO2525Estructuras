@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("UNIVERSIDAD ESTATAL AMAZÓNICA");
+Console.WriteLine("=============================");
 
 //Funcion para sumar dos números
 int sumar(int a, int b)
