@@ -1,13 +1,26 @@
 ﻿Console.WriteLine("UNIVERSIDAD ESTATAL AMAZÓNICA");
 Console.WriteLine("=============================");
+Console.WriteLine();
 
-//Funcion para sumar dos números
-int sumar(int a, int b)
+Console.WriteLine("el perimetro de un cuadrado de lado 5 es " + perimetroCuadrado(5));
+
+
+//int a = 56;
+//int b = -20;
+//Console.WriteLine(a + b);
+//System.Console.WriteLine(suma(3, 4));
+//System.Console.WriteLine(suma(4, 7));
+//System.Console.WriteLine("La suma es: " + suma(2, 1));
+//System.Console.WriteLine("La suma de " + a + " y " + b + " es: " + suma(a, b));
+
+
+//Crear una función de suma
+//int suma (int a, int b)
+//{
+//    return a + b;
+//}
+
+double perimetroCuadrado(double lado)
 {
-    return a + b;
-}
-
-//Función para restar dos flotantes
-double resta(double a, double b){
-    return a - b;
+    return lado + lado + lado + lado;
 }
