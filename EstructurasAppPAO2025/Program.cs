@@ -3,7 +3,7 @@ Console.WriteLine("=============================");
 Console.WriteLine();
 
 Console.WriteLine("el perimetro de un cuadrado de lado 5 es " + perimetroCuadrado(5));
-
+Console.WriteLine("el área de un cuadrado de lado 5 es " + areaCuadrado(5));
 
 //int a = 56;
 //int b = -20;
@@ -20,7 +20,13 @@ Console.WriteLine("el perimetro de un cuadrado de lado 5 es " + perimetroCuadrad
 //    return a + b;
 //}
 
+//función para calcular el perimetro de un cuadrado o rectangulo
 double perimetroCuadrado(double lado)
 {
     return lado + lado + lado + lado;
+}
+
+double areaCuadrado(double lado)
+{
+    return lado * lado;
 }
